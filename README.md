@@ -1,12 +1,12 @@
 # NYC Lens
 
-## 🧠 PROJECT SUMMARY
+## PROJECT SUMMARY
 
 NYC Lens is a camera-first, AI-powered civic exploration platform that transforms New York City into a living, interactive museum. By leveraging Google Cloud's Vertex AI (Gemini 3.1 Flash multimodal) and NYC Open Data, NYC Lens empowers users to point their camera at any landmark or place and instantly unlock rich, contextual stories, Q&A, and community insights—bridging the gap between what we see and what we understand.
 
 ---
 
-# 🚀 Overview
+# Overview
 
 **NYC Lens: See. Understand. Belong.**
 
@@ -14,7 +14,7 @@ NYC Lens reimagines New York City as a living museum, where every street, landma
 
 ---
 
-# 💡 Problem Statement
+# Problem Statement
 
 - NYC Open Data is vast but largely inaccessible to the public.
 - Residents and tourists see places but rarely understand their significance, history, or community context.
@@ -22,22 +22,22 @@ NYC Lens reimagines New York City as a living museum, where every street, landma
 
 ---
 
-# 🔥 Solution
+# Solution
 
 NYC Lens is a real-time, AI-powered civic intelligence layer for urban exploration. Through a camera-first interface, it uses multimodal and agentic AI to deliver instant, contextual insights about the city—making open data accessible, engaging, and actionable for everyone.
 
 ---
 
-# ✨ Key Features
+# Key Features
 
 - **Landmark Detection:** Instantly recognizes NYC landmarks and places using Gemini multimodal vision on Vertex AI.
 - **Ask Mode:** Natural Q&A via voice or text for on-the-spot curiosity.
-- **Story Mode:** Immersive storytelling—past, present, and future—about any location.
+- **Story Mode:** Immersive storytelling—past, present, and future-about any location.
 - **Community Mode:** Accessibility, transit, and civic infrastructure insights for inclusive exploration.
 
 ---
 
-# 🧩 Multi-Agent Architecture
+# Multi-Agent Architecture
 
 NYC Lens is powered by a modular, multi-agent system:
 
@@ -56,7 +56,7 @@ NYC Lens is powered by a modular, multi-agent system:
 
 ---
 
-# ⚙️ System Architecture
+# System Architecture
 
 **Flow:**
 
@@ -88,7 +88,7 @@ sequenceDiagram
 
 ---
 
-# ☁️ Google Cloud Integration
+# Google Cloud Integration
 
 - **Vertex AI:** Gemini 3.1 Flash multimodal for vision + language understanding
 - **GenAI SDK / ADK:** Production-grade AI integration
@@ -97,7 +97,7 @@ sequenceDiagram
 
 ---
 
-# 🛠️ Tech Stack
+# Tech Stack
 
 - **Frontend:** Next.js, React, TypeScript, Tailwind CSS
 - **Backend:** FastAPI (Python)
@@ -107,7 +107,7 @@ sequenceDiagram
 
 ---
 
-# 🔄 Data Pipeline
+# Data Pipeline
 
 - Ingests and preprocesses NYC Open Data (landmarks, parks, civic sites)
 - Generates unified datasets (e.g., `unified_places.json`, `landmark_context.json`)
@@ -115,7 +115,7 @@ sequenceDiagram
 
 ---
 
-# 🌍 Business Impact + Tech for Good
+# Business Impact + Tech for Good
 
 NYC Lens bridges the gap between visual experience and contextual understanding:
 
@@ -138,7 +138,7 @@ NYC Lens bridges the gap between visual experience and contextual understanding:
 
 ---
 
-# 🌎 Scalability
+# Scalability
 
 - Easily extensible to other cities and regions
 - Partnership potential:
@@ -149,7 +149,7 @@ NYC Lens bridges the gap between visual experience and contextual understanding:
 
 ---
 
-# 🎥 Demo Flow
+# Demo Flow
 
 1. User opens NYC Lens and points camera at a landmark
 2. System detects and identifies the place in real time
@@ -159,17 +159,7 @@ NYC Lens bridges the gap between visual experience and contextual understanding:
 
 ---
 
-# 🏆 Why This Project Wins
-
-- State-of-the-art multimodal AI (Gemini on Vertex AI)
-- Modular, agentic architecture (A2A, orchestrator)
-- Real-time, production-ready pipeline
-- Deep civic and community impact
-- Usability and accessibility at the core
-
----
-
-# 🔮 Future Scope
+# Future Scope
 
 - AR overlays for immersive exploration
 - Expansion to global cities
@@ -178,17 +168,19 @@ NYC Lens bridges the gap between visual experience and contextual understanding:
 
 ---
 
-# 👥 Team & Contact
+# Team & Contact
 
-**University:** [Your University Name Here]
+**University:** New York University, Tandon School of Engineering
 
 **Team Members:**
-- Greeshma Hedvikar — greeshmahedvikar@gmail.com
-- [Add other team members and emails here]
+- Greeshma Laxmikant Hedvikar — greeshmahedvikar18@gmail.com
+- Rujuta Amit Joshi - rajoshi111202@gmail.com
+- Lavanya Nandan Deole - lavanya10feb@gmail.com
+- Isha Harish - theishaharish@gmail.com
 
 ---
 
-# 📄 References
+# References
 
 - NYC Open Data: https://opendata.cityofnewyork.us/
 - Google Cloud Vertex AI: https://cloud.google.com/vertex-ai
@@ -197,7 +189,7 @@ NYC Lens bridges the gap between visual experience and contextual understanding:
 
 ---
 
-# 🏁 Get Started
+# Get Started
 
 1. Clone the repo
 2. Set up Google Cloud credentials and Vertex AI access
@@ -208,6 +200,6 @@ NYC Lens bridges the gap between visual experience and contextual understanding:
 
 ---
 
-# 🏅 Built for the Google Cloud + GenAI Hackathon
+# Built for the Google Cloud + GenAI Hackathon
 
 NYC Lens is a hackathon-winning project, designed for real-world deployment and social impact. Join us in making cities more accessible, engaging, and understood by all.
