@@ -1,0 +1,13 @@
+steps:
+  - name: gcr.io/cloud-builders/docker
+    args:
+      - build
+      - -f
+      - frontend/Dockerfile
+      - -t
+      - us-central1-docker.pkg.dev/$PROJECT_ID/quack/quack-frontend:${_IMAGE_TAG}
+      - --build-arg
+      - NEXT_PUBLIC_API_BASE_URL=${_NEXT_PUBLIC_API_BASE_URL}
+      - .
+images:
+  - us-central1-docker.pkg.dev/$PROJECT_ID/quack/quack-frontend:${_IMAGE_TAG}

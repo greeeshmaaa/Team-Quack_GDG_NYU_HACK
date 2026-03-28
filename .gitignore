@@ -1,0 +1,52 @@
+# macOS
+.DS_Store
+
+# Environment files
+.env
+.env.*
+.env.example
+frontend/.env.local
+frontend/.env.*.local
+.secrets/
+backend/.secrets/
+*.secret.json
+*.credentials.json
+service-account*.json
+vertex-sa.json
+
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node / Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/.tmp-home/
+frontend/.tmp-cache/
+frontend/tsconfig.tsbuildinfo
+
+# Local dataset files
+backend/app/data/*.json
+backend/app/data/raw/
+backend/app/data/processed/
+
+# Build / logs
+dist/
+build/
+*.log
+
+# Local scratch files
+test_gemini.py
+package-lock.json
+
+# IDE
+.vscode/
+.idea/
