@@ -25,6 +25,7 @@ NYC Lens reimagines New York City as a living museum, where every street, landma
 # Solution
 
 NYC Lens is a real-time, AI-powered civic intelligence layer for urban exploration. Through a camera-first interface, it uses multimodal and agentic AI to deliver instant, contextual insights about the city—making open data accessible, engaging, and actionable for everyone.
+<img width="1739" height="319" alt="image" src="https://github.com/user-attachments/assets/b727d5be-2f76-45e0-86ee-27d799aac57d" />
 
 ---
 
