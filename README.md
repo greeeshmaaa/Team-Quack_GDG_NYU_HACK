@@ -1,4 +1,4 @@
-# NYC Lens
+# NYC Lens (Team Name: Quack)
 
 ## PROJECT SUMMARY
 
